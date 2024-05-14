@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <section>
+        
+        <div class="container">
+            <h1>POMODORO</h1>
+            <div class="khunglong">
+                <h2>Giải  trí</h2>
+                <a href="./khunglong.html" target="_blank"><img src="./pngegg.png" alt="" width="150" height="150" ></a>
+                <a href="./flappy.html" target="_blank"><img src="./Remove-bg.ai_1715441750065.png" alt="" width="150" height="150" ></a>
+                <!-- <a class="composs-button composs-button-instagram" style="background-color: white; border-radius: 2px; border: 1px solid #e95950; box-sizing: border-box; color: #e95950; display: inline-block; font-family: Arial, sans-serif; font-size: 14px; line-height: 16.8px; margin: 0px 3px 10px; padding: 10px 14px; text-decoration-line: none; transition: all 0.2s;" href="./index.html" target="_blank" rel="noopener noreferrer">Khung Long</a> -->
+            </div>
+            <div class="webtruong">
+                <h2>THPT CHUYÊN THÁI NGUYÊN</h2>
+                <a href="http://thptchuyenthainguyen.edu.vn" target="_blank"><img src="./Logo_CTN.png" alt="" width="150" height="150" ></a>
+                <a href="https://www.facebook.com/profile.php?id=100093576875757" target="_blank"><img src="./cut.png" alt="" width="150" height="150" ></a>
+
+                <!-- <a class="composs-button composs-button-instagram" style="background-color: white; border-radius: 2px; border: 1px solid #e95950; box-sizing: border-box; color: #e95950; display: inline-block; font-family: Arial, sans-serif; font-size: 14px; line-height: 16.8px; margin: 0px 3px 10px; padding: 10px 14px; text-decoration-line: none; transition: all 0.2s;" href="./index.html" target="_blank" rel="noopener noreferrer">Khung Long</a> -->
+            </div>
+            <div class="painel">
+                <p id="work">work</p>
+                <p id="break">break</p>
+            </div>
+            <div class="audio">
+               <audio autoplay loop>
+                    <source src="./30minchill.mp3">
+                </audio>
+            </div>
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p>:</p>
+                        <p id="seconds"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+
+                <a id="reset" href="./index1.html"><i class="fa-solid fa-arrow-rotate-left"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPT -->
+    <script src="./khanhken.js"></script>
+</body>
+</html>
